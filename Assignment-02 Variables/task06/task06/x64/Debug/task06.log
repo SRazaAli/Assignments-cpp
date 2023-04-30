@@ -1,0 +1,4 @@
+﻿  task06.cpp
+E:\Study\Uni\CP lab\task06\task06\task06.cpp(15,10): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+E:\Study\Uni\CP lab\task06\task06\task06.cpp(16,14): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+  task06.vcxproj -> E:\Study\Uni\CP lab\task06\x64\Debug\task06.exe

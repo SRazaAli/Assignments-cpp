@@ -1,0 +1,5 @@
+﻿  FileName.cpp
+E:\Study\Uni\CP lab\Class task\Class task\FileName.cpp(5,17): warning C4101: 'R3': unreferenced local variable
+E:\Study\Uni\CP lab\Class task\Class task\FileName.cpp(5,13): warning C4101: 'R2': unreferenced local variable
+E:\Study\Uni\CP lab\Class task\Class task\FileName.cpp(5,9): warning C4101: 'R1': unreferenced local variable
+  Class task.vcxproj -> E:\Study\Uni\CP lab\Class task\x64\Debug\Class task.exe

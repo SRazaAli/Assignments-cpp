@@ -1,0 +1,8 @@
+﻿  anotherOne.cpp
+E:\Study\Uni\CP lab\Assignment-01\Assignment-02\Assignment-02\anotherOne.cpp(9,18): warning C4101: 'marksOfCP': unreferenced local variable
+E:\Study\Uni\CP lab\Assignment-01\Assignment-02\Assignment-02\anotherOne.cpp(9,6): warning C4101: 'std_rollno': unreferenced local variable
+E:\Study\Uni\CP lab\Assignment-01\Assignment-02\Assignment-02\anotherOne.cpp(9,41): warning C4101: 'marksOfDS': unreferenced local variable
+E:\Study\Uni\CP lab\Assignment-01\Assignment-02\Assignment-02\anotherOne.cpp(9,29): warning C4101: 'marksOfICT': unreferenced local variable
+FileName.obj : error LNK2005: main already defined in anotherOne.obj
+task-03.obj : error LNK2005: main already defined in anotherOne.obj
+E:\Study\Uni\CP lab\Assignment-01\Assignment-02\x64\Debug\Assignment-02.exe : fatal error LNK1169: one or more multiply defined symbols found

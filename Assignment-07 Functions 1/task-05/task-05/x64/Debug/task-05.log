@@ -1,0 +1,2 @@
+﻿  FileName.cpp
+E:\Study\Uni\CP lab\Functions 1\task-05\task-05\FileName.cpp(48): error C4700: uninitialized local variable 'option' used

@@ -1,0 +1,3 @@
+﻿  task03.cpp
+E:\Study\Uni\CP lab\task03\task03\task03.cpp(25,22): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+  task03.vcxproj -> E:\Study\Uni\CP lab\task03\x64\Debug\task03.exe

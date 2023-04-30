@@ -1,0 +1,3 @@
+﻿  FileName.cpp
+E:\Study\Uni\CP lab\BMS\BMS\FileName.cpp(9,19): warning C4101: 'customerCNIC': unreferenced local variable
+  BMS.vcxproj -> E:\Study\Uni\CP lab\BMS\x64\Debug\BMS.exe

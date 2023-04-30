@@ -1,0 +1,3 @@
+﻿  FileName.cpp
+E:\Study\Uni\CP lab\Assignments-05\Ticket management system\Ticket management system\FileName.cpp(6,6): warning C4101: 'route': unreferenced local variable
+  Ticket management system.vcxproj -> E:\Study\Uni\CP lab\Assignments-05\Ticket management system\x64\Debug\Ticket management system.exe

@@ -1,0 +1,3 @@
+﻿  FileName.cpp
+E:\Study\Uni\CP lab\Assignment-07 Functions 1\task--01\Project2\FileName.cpp(23,8): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+  Project2.vcxproj -> E:\Study\Uni\CP lab\Assignment-07 Functions 1\task--01\x64\Debug\Project2.exe

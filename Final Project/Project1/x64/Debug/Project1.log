@@ -1,0 +1,3 @@
+﻿  FileName.cpp
+E:\Study\Uni\CP lab\Final Project\Project1\FileName.cpp(6,76): warning C4101: 'shopingChoice': unreferenced local variable
+  Project1.vcxproj -> E:\Study\Uni\CP lab\Final Project\x64\Debug\Project1.exe

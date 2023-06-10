@@ -1,0 +1,20 @@
+============================================
+Enter Student ID: 1400316
+Student Name: raza
+age of the student: 18
+title of the book: calculus
+ISBN of the book: 574587493
+duartion period of renting: 25============================================
+Enter Student ID: 2134231028
+Student Name: ali
+age of the student: 20
+title of the book: analysis
+ISBN of the book: 584884
+duartion period of renting: 10
+============================================
+Student ID: 98322
+Student Name: nsdkns
+age of the student: 18
+title of the book: jdjalksa
+ISBN of the book: 222
+duartion period of renting: 23

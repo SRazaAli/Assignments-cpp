@@ -1,0 +1,9 @@
+=====================================
+Details of the student
+=====================================
+ID: 1400316
+Full name: Syed Muhammad Raza Ali
+E-mail: asyedraza7@gmail.com
+Department: BSCS
+Phone number: 210000000
+=====================================

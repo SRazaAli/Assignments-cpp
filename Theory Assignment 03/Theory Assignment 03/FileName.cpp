@@ -13,6 +13,7 @@ ofstream bookout;
 struct book {
 	int bookID;
 	string bookTitle, authorName;
+
 }bookObj[100];
 
 //Student
@@ -102,11 +103,13 @@ void studentData() {
 	cout << "Enter Student ID" << endl;
 	cin >> studentObj[i].studentID;
 	cout << "Enter the Student Name" << endl;
+	cin.ignore();
 	getline(cin,studentObj[i].studentName);
 	cout << "Enter the age of the student" << endl;
 	cin >> studentObj[i].studentAge;
 	if (studentObj[i].studentAge >= 16) {
 		cout << "Enter the title of the book" << endl;
+		cin.ignore();
 		getline(cin,studentObj[i].bookTitle);
 		cout << "Enter the ISBN of the book" << endl;
 		cin >> studentObj[i].bookISBN;

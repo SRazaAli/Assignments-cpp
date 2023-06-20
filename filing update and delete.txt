@@ -1,0 +1,120 @@
+#include <iOStream>
+#include <string>
+#include <fstream>
+using namespace std;
+
+int main(){
+string searchName,newName,delName;
+ifstream filein;
+ofstream fileout;
+struct student{
+string name;
+int age,ID;
+}obj[10];
+int i = 0;
+char choice,loopChoice;
+
+do{
+cout << "Press 1 to enter data"<<endl
+<< "Press 2 to update data"<<endl
+<<"Press 3 to delete data"<<endl;
+
+cin >> choice;
+
+switch(choice){
+case '1':{
+
+
+cout << "Enter name"<<endl;
+cin >> obj[i].name;
+cout << "Enter age "<<endl;
+cin >> obj[i].age;
+cout << "Enter ID"<<endl;
+cin >> obj[i].ID;
+
+
+fileout.open("Student data.txt",ios::app);
+if(fileout.is_open()){
+fileout << "Name of student : "<<obj[i].name
+<<endl << "Age of student : "<<obj[i].age
+<<endl << "ID of student : "<<obj[i].ID<<endl;
+fileout.close();
+i = i+1;
+}
+else {
+cout << "Can't open file"<<endl;
+}
+break;
+}
+case '2':
+{
+
+cout << "Enter the name of the stuedent"<<endl;
+cin >> searchName;
+bool  flag = false;
+for(int j = 0;j<i;j++){
+if(obj[j].name == searchName){
+flag = true;
+cout << "record found"<<endl
+<< "Enter new name"<<endl;
+cin >> newName;
+obj[j].name = newName;
+}
+}
+if(flag == false){
+cout << "record not found"<<endl;
+}
+else if(flag = true){
+remove("Student data.txt");
+for (int j = 0;j<i;j++){
+
+fileout.open("Student data.txt",ios::app);
+fileout << "Name of student : "<<obj[j].name
+<<endl << "Age of student : "<<obj[j].age
+<<endl << "ID of student : "<<obj[j].ID<<endl;
+fileout.close();
+}
+}
+break;
+}
+case '3':
+{
+
+cout << "Enter the name you want to delete"<<endl;
+cin >> delName;
+for(int j = 0;j<i;j++){
+if(obj[j].name == delName){
+
+
+obj[j].name  = " ";
+obj[j].age = 0;
+obj[j].ID = 0;
+for(int k = j;k<i;k++){
+obj[k].name = obj[k+1].name;
+obj[k].age = obj[k+1].age;
+obj[k].ID = obj[k+1].ID;
+
+}
+}
+
+}
+remove("Student data.txt");
+for( int j = 0;j<i;j++){
+
+fileout.open("Student data.txt",ios::app);
+fileout << "Name of student : "<<obj[j].name
+<<endl << "Age of student : "<<obj[j].age
+<<endl << "ID of student : "<<obj[j].ID<<endl;
+fileout.close();
+}
+break;
+}
+}
+
+
+cout << "Press y if you want to continue"<<endl;
+cin >> loopChoice;
+}while(loopChoice == 'y');
+
+return 0;
+}

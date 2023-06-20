@@ -1,0 +1,287 @@
+============================================
+		All Products
+============================================
+		
+		women section
+
+item : three piece suit
+price : 20000 rps
+sizes : small, medium, large
+
+********************************************
+
+item : two piece suit
+price : 15000 rps
+sizes : small, medium, large
+
+********************************************
+
+item : one piece suit
+price : 10000 rps
+sizes : small, medium, large
+
+********************************************
+
+item : nike airmax 90 se
+price : 18000 rps
+sizes : small, mdium, large
+
+********************************************
+
+item : nike airforce 1
+price : 16000
+sizes : small, medium, large
+
+********************************************
+
+item : converse high
+price : 14000
+sizes : small, medium, large
+
+********************************************
+
+item : reebok club-c mid
+price : 21000
+sizes : small, medium, large 
+
+********************************************
+
+item : blue jeans
+price : 7000
+sizes : small, medium, large
+
+********************************************
+
+item : black jeans
+price : 8500
+sizes : small, medium, large
+
+********************************************
+
+item : brown jeans
+price : 8750
+sizes : small,medium, large
+
+********************************************
+
+		men section
+
+item : three piece suit
+price : 14500
+sizes : small, medium, large
+
+********************************************
+
+item : rolex sky-dweller
+price : 4800
+colors : blue, olive green, white
+
+********************************************
+
+item : casio men's classic
+price : 5600
+colors : blue, olive green, white
+
+********************************************
+
+item : lactose men's classic
+price : 8200
+colors : blue, olive green, white
+
+********************************************
+
+item : casio men's classic
+price : 15600
+colors : blue, olive green, white
+
+********************************************
+
+item : t-shirt
+price : 950
+sizes : small, mdium, large
+
+********************************************
+
+item : long shirt
+price : 1150
+sizes : small, medium, large
+
+********************************************
+
+item : formal shirt
+price : 1200
+sizes : small, medium , large
+
+********************************************
+
+item : denim shirt
+price : 1150
+sizes : small, medium, large
+
+********************************************
+
+item : causal shirt
+price : 500
+sizes : small,medium, large
+
+********************************************
+
+item : nike jordan 1 high
+price : 37000
+sizes : small, medium, high
+
+********************************************
+
+item : nike airmax 97
+price : 40000
+sizes : smal, medium , large
+
+********************************************
+
+item : converse low
+price : 19500
+sizes : small, medium ,large
+
+********************************************
+
+item : adidas 4d
+price : 55000
+sizes : small, medium, large
+
+******************************************** 
+
+item : reebok leather shoes
+price : 22000
+sizes : small, medium, large
+
+******************************************** 
+
+item : blue jeans
+price : 5500
+sizes : small, medium, large
+
+******************************************** 
+
+item : black jeans
+price : 4000
+sizes : small, medium, large
+
+******************************************** 
+
+item : brown jeans
+price : 6750
+sizes : small, medium, large
+
+******************************************** 
+
+item : denim jeans 
+price : 8250
+sizes : small, medium, large
+
+******************************************** 
+
+item : grey jeans
+price : 3500
+sizes : small, medium, large
+
+******************************************** 
+
+		kids section
+
+item: blue shirt
+price : 400
+sizes : small, medium, large
+
+******************************************** 
+
+item : yellow shirt
+price : 500
+sizes : small, medium, large
+
+******************************************** 
+
+item : pink shirt
+price : 450
+sizes : small, medium, large
+
+******************************************** 
+
+item : green shirt
+price : 500
+sizes : small, medium, large
+
+******************************************** 
+
+item: blue watch
+price : 1500
+sizes : small, medium, large
+
+******************************************** 
+
+item : yellow watch
+price : 2100
+sizes : small, medium, large
+
+******************************************** 
+
+item : pink watch
+price : 1500
+sizes : small, medium, large
+
+******************************************** 
+
+item : green watch
+price : 2500
+sizes : small, medium, large
+
+******************************************** 
+
+item: blue frock
+price : 600
+sizes : small, medium, large
+
+******************************************** 
+
+item : yellow frock
+price : 600
+sizes : small, medium, large
+
+******************************************** 
+
+item : pink frock
+price : 450
+sizes : small, medium, large
+
+******************************************** 
+
+item : green frock
+price : 1000
+sizes : small, medium, large
+
+******************************************** 
+
+item: blue shoes
+price : 1200
+sizes : small, medium, large
+
+******************************************** 
+
+item : yellow shoes
+price : 1500
+sizes : small, medium, large
+
+******************************************** 
+
+item : pink shoes
+price : 1450
+sizes : small, medium, large
+
+******************************************** 
+
+item : green shoes
+price : 3000
+sizes : small, medium, large
+
+******************************************** 
+
+

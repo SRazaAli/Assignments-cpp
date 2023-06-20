@@ -1845,20 +1845,7 @@ using namespace std;
 
 
 
-		/*	cout << "\n------------------ Bill ------------------\n";
-			cout << "Product\t\tQuantity\tPrice\t\tTotal\n";
-			cout << "------------------------------------------\n";
-
-			for (int j = 0; j < i; j++) {
-				 itemTotal = itemTotal + obj[j].price ;
-
-				cout << obj[j].itemName<< "\t\t" << obj[j].size << "\t\t"
-					<< obj[j].price << "\t\t" << itemTotal << endl;
-			}
-
-			cout << "------------------------------------------\n";
-			cout << "\t\t\t\tTotal:\t\t" << itemTotal << endl;
-			cout << "------------------------------------------\n";*/
+	
 
 			cout << "Press 0 to return to the main menu or any other key to exit" << endl;
 			cin >> loopChoice;
@@ -1894,6 +1881,20 @@ using namespace std;
 					<< "------------------------------------------------------------" << endl;
 			}
 		} while (loopChoice == '0');
+		/*cout << "\n------------------ Bill ------------------\n";
+		cout << "Product\t\tQuantity\tPrice\t\tTotal\n";
+		cout << "------------------------------------------\n";
+
+		for (int j = 0; j < i; j++) {
+			itemTotal = itemTotal + obj[j].price;
+
+			cout << obj[j].itemName << "\t\t" << obj[j].size << "\t\t"
+				<< obj[j].price << "\t\t" << itemTotal << endl;
+		}
+
+		cout << "------------------------------------------\n";
+		cout << "\t\t\t\tTotal:\t\t" << itemTotal << endl;
+		cout << "------------------------------------------\n";*/
 
 		return 0;
 	}

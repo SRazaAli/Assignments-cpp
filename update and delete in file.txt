@@ -1,0 +1,80 @@
+
+//update
+struct car {
+		string name;
+		int model;
+	}obj[2];
+
+	for (int i = 0; i < 2; i++) {
+		cout << "Enter the name of the car" << endl;
+		cin >> obj[i].name;
+		cout << "Enter the model" << endl;
+		cin >> obj[i].model;
+	}
+	ifstream filein; ofstream fileout;
+	fileout.open("car.txt", ios::app);
+	for (int i = 0; i < 2; i++) {
+		fileout << "Name : " << obj[i].name << endl
+			<< "model : " << obj[i].model << endl;
+	}
+	fileout.close();
+	string replaceName, newName;
+	cout << "Enter the name you want to replace : ";
+	cin >> replaceName;
+
+	for (int i = 0; i < 2; i++) {
+		if (obj[i].name == replaceName) {
+			cout << "name found, enter new name" << endl;
+			cin >> newName;
+			obj[i].name = newName;
+		}
+	}
+	remove("car.txt");
+	fileout.open("car.txt", ios::app);
+	for (int i = 0; i < 2; i++) {
+		fileout << "name : " << obj[i].name << endl << "model : " << obj[i].model << endl;
+
+	}
+
+
+
+//delete
+struct car {
+		string name;
+		int model;
+	}obj[2];
+
+	for (int i = 0; i < 2; i++) {
+		cout << "Enter the name of the car" << endl;
+		cin >> obj[i].name;
+		cout << "Enter the model" << endl;
+		cin >> obj[i].model;
+	}
+	ifstream filein; ofstream fileout;
+	fileout.open("car.txt", ios::app);
+	for (int i = 0; i < 2; i++) {
+		fileout << "Name : " << obj[i].name << endl
+			<< "model : " << obj[i].model << endl;
+	}
+	fileout.close();
+	string delName;
+	cout << "Enter the name you want to delete : ";
+	cin >> delName;
+	for (int i = 0; i < 2; i++) {
+		if (obj[i].name == delName) {
+			obj[i].name = " ";
+			obj[i].model = NULL;
+			for (int j = i; j < 2-1; j++) {
+				obj[j].name = obj[j + 1].name;
+				obj[j].model = obj[j + 1].model;
+			}
+		}
+	}
+
+	
+	remove("car.txt");
+	fileout.open("car.txt", ios::app);
+	for (int i = 0; i < 2; i++) {
+		fileout << "name : " << obj[i].name << endl << "model : " << obj[i].model << endl;
+
+	}
